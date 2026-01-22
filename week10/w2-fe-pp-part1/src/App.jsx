@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import IdCard from "./Idcard.jsx";
+import Random from "./Random.jsx";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         height={174}
         birth={new Date("1988-05-11")}
       />
+      <Random min={1} max={100} />
+      
+
     </div>
   );
 }
